@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mealsContext" prefHeight="625.0" prefWidth="901.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminFMealpackageController">
+   <children>
+      <ImageView fitHeight="380.0" fitWidth="478.0" layoutX="-7.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/img_10.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="310.0" fitWidth="450.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/homepage-restaurant-hotels-golden-tulip.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="390.0" fitWidth="569.0" layoutX="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/maxresdefault.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="312.0" fitWidth="464.0" layoutX="437.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/c4f6b-6a0148c6f68c01970c01b8d220ff23970c-pi.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="21.0" layoutY="26.0" mnemonicParsing="false" onAction="#backToAdmin" prefHeight="31.0" prefWidth="58.0" style="-fx-background-color: black;" text="Back" textFill="WHITE" />
+      <TextField layoutX="260.0" layoutY="294.0" prefHeight="31.0" prefWidth="302.0" text="    Meal Packages">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </TextField>
+      <Button layoutX="59.0" layoutY="129.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="238.0" text="Local Meal" />
+      <Button layoutX="71.0" layoutY="537.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="272.0" text="French Meal" />
+      <Button layoutX="459.0" layoutY="129.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="238.0" text="Chinese Meal" />
+      <Button layoutX="578.0" layoutY="428.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="238.0" text="Dessert" />
+   </children>
+</AnchorPane>
